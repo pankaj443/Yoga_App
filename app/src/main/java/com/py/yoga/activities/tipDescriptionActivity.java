@@ -55,8 +55,6 @@ public class tipDescriptionActivity extends AppCompatActivity {
             }
         });
 
-
-
         texttitle.setText(title);
         textdesc.setText(desc);
 

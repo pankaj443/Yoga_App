@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import com.py.yoga.R;
-import com.py.yoga.fragments.excercisesFragment;
+import com.py.yoga.fragments.exercisesFragment;
 import com.py.yoga.fragments.tipsFragment;
 import com.py.yoga.fragments.utilityFragment;
 import com.py.yoga.fragments.workoutFragment;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                     fragment = new workoutFragment();
                 break;
                 case R.id.navigation_excercises:
-                    fragment = new excercisesFragment();
+                    fragment = new exercisesFragment();
                 break;
                 case R.id.navigation_tips:
                     fragment = new tipsFragment();
