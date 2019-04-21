@@ -5,6 +5,23 @@
     <string name="title_utilities">Utility</string>
     <string name="title_tips">Tips</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+   <string name="q">Prepare</string>
+    <string name="w">Identify A Comfortable Space</string>
+    <string name="e">Wear Comfortable Clothing</string>
+    <string name="r">Plan Smart Goals</string>
+    <string name="t">Practice Regularly</string>
+    <string name="y">Switch Off Any Distractions</string>
+    <string name="u">Start With The Basics</string>
+    <string name="i">Practice Yoga On An Empty Stomach</string>
+    <string name="o">Always Warm Up At The Beginning</string>
+    <string name="p">Go Slow</string>
+    <string name="a">Breathe Right</string>
+    <string name="s">Always Cool Down At The End</string>
+    <string name="d">Pranayama</string>
+    <string name="f">Flexibility</string>
+    <string name="g">Learn From The Experts</string>
+
+
+
+
 </resources>
