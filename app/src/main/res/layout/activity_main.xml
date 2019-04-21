@@ -7,7 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
 
-    <include layout="@layout/contentmain"/>
+    <include
+        android:id="@+id/contentmain"
+        layout="@layout/contentmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"

@@ -20,7 +20,7 @@ import java.util.List;
 public class tipsFragment extends Fragment {
 
     RecyclerView recyclerView;
-    List<tips> tipsList;
+    public static List<tips> tipsList;
     tipsAdapter  adapter;
 
 
@@ -40,21 +40,22 @@ public class tipsFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        tipsList.add(new tips(1,R.string.q,R.mipmap.icon1));
-        tipsList.add(new tips(2,R.string.w,R.mipmap.icon2));
-        tipsList.add(new tips(3,R.string.e,R.mipmap.icon3));
-        tipsList.add(new tips(4,R.string.r,R.mipmap.icon4));
-        tipsList.add(new tips(5,R.string.t,R.mipmap.icon5));
-        tipsList.add(new tips(6,R.string.y,R.mipmap.icon6));
-        tipsList.add(new tips(7,R.string.u,R.mipmap.icon7));
-        tipsList.add(new tips(8,R.string.i,R.mipmap.icon8));
-        tipsList.add(new tips(9,R.string.o,R.mipmap.icon9));
-        tipsList.add(new tips(10,R.string.p,R.mipmap.icon10));
-        tipsList.add(new tips(11,R.string.a,R.mipmap.icon11));
-        tipsList.add(new tips(12,R.string.s,R.mipmap.icon12));
-        tipsList.add(new tips(13,R.string.d,R.mipmap.icon13));
-        tipsList.add(new tips(14,R.string.f,R.mipmap.icon14));
-        tipsList.add(new tips(15,R.string.g,R.mipmap.icon15));
+        tipsList.add(new tips(1,getActivity().getString(R.string.q),getActivity().getString(R.string.q1),R.mipmap.icon1));
+        tipsList.add(new tips(2,getActivity().getString(R.string.w),getActivity().getString(R.string.w1),R.mipmap.icon2));
+        tipsList.add(new tips(3,getActivity().getString(R.string.e),getActivity().getString(R.string.e1),R.mipmap.icon3));
+        tipsList.add(new tips(4,getActivity().getString(R.string.r),getActivity().getString(R.string.r1),R.mipmap.icon4));
+        tipsList.add(new tips(5,getActivity().getString(R.string.t),getActivity().getString(R.string.t1),R.mipmap.icon5));
+        tipsList.add(new tips(6,getActivity().getString(R.string.y),getActivity().getString(R.string.y1),R.mipmap.icon6));
+        tipsList.add(new tips(7,getActivity().getString(R.string.u),getActivity().getString(R.string.u1),R.mipmap.icon7));
+        tipsList.add(new tips(8,getActivity().getString(R.string.i),getActivity().getString(R.string.i1),R.mipmap.icon8));
+        tipsList.add(new tips(9,getActivity().getString(R.string.o),getActivity().getString(R.string.o1),R.mipmap.icon9));
+        tipsList.add(new tips(10,getActivity().getString(R.string.p),getActivity().getString(R.string.p1),R.mipmap.icon10));
+        tipsList.add(new tips(11,getActivity().getString(R.string.a),getActivity().getString(R.string.a1),R.mipmap.icon11));
+        tipsList.add(new tips(12,getActivity().getString(R.string.s),getActivity().getString(R.string.s1),R.mipmap.icon12));
+        tipsList.add(new tips(13,getActivity().getString(R.string.d),getActivity().getString(R.string.d1),R.mipmap.icon13));
+        tipsList.add(new tips(14,getActivity().getString(R.string.f),getActivity().getString(R.string.f1),R.mipmap.icon14));
+        tipsList.add(new tips(15,getActivity().getString(R.string.g),getActivity().getString(R.string.g1),R.mipmap.icon15));
+
 
 
 
