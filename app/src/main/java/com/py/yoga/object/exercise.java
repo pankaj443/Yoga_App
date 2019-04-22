@@ -1,8 +1,6 @@
 package com.py.yoga.object;
 
-import android.graphics.Bitmap;
-import android.graphics.drawable.Drawable;
-import android.widget.ImageView;
+import android.os.Parcelable;
 
 public class exercise {
 
@@ -13,11 +11,15 @@ public class exercise {
 
 
 
+
     public exercise(int id, String title, int imageView) {
         this.id = id;
         this.title = title;
         this.imageView = imageView;
+
     }
+
+
 
     public int getId() {
         return id;

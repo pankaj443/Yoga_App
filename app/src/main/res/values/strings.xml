@@ -40,4 +40,36 @@
     <string name="g1">Yes, I said experts, and you don’t need to leave your home to do that. I am a big fan of workout DVDs. There are DVDs for complete beginners that will help you in learning the correct postures for different poses. At the same time, the DVDs will give you a nice workout. </string>
 
 
+    <string name="x1">Utkatasana</string>
+    <string name="x2">Garudasana</string>
+    <string name="x3">Utthita Parsvakonasana</string>
+    <string name="x4">Parighasana</string>
+    <string name="x5">Natarajasana</string>
+    <string name="x6">Adho Mukha Svanasana</string>
+    <string name="x7">Tadasana</string>
+    <string name="x8">Urdhva Prasarita Eka Padasana</string>
+    <string name="x9">Vrksasana</string>
+    <string name="x10">Anjaneyasana</string>
+    <string name="x11">Bharadvajasana I</string>
+    <string name="x12">Ardha Matsyendrasana</string>
+    <string name="x13">Marichyasana III</string>
+    <string name="x14">Parivrtta Parsvakonasana</string>
+    <string name="x15">Parivrtta Janu Sirsasana</string>
+    <string name="x16">Paschimottanasana</string>
+    <string name="x17">Janu Sirsasana</string>
+    <string name="x18">Upavistha Konasana</string>
+    <string name="x19">Dhanurasana</string>
+    <string name="x20">Urdhva Dhanurasana</string>
+    <string name="x21">Urdhva Mukha Svanasana</string>
+    <string name="x22">Tolasana</string>
+    <string name="x23">Eka Pada Koundinyanasana II</string>
+    <string name="x24">Kapotasana</string>
+    <string name="x25">Bhujangasana</string>
+    <string name="x26">Virasana</string>
+    <string name="x27">Bitilasana</string>
+    <string name="x28">Dandasana</string>
+    <string name="x29">Purvottanasana</string>
+    <string name="x30">Ustrasana</string>
+
+
 </resources>

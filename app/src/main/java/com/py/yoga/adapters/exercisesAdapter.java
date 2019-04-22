@@ -1,8 +1,11 @@
 package com.py.yoga.adapters;
 
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +13,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.py.yoga.R;
+import com.py.yoga.activities.exerciseDescriptionActivity;
+import com.py.yoga.activities.tipDescriptionActivity;
 import com.py.yoga.object.exercise;
 
 import java.util.List;
@@ -36,12 +41,27 @@ public class exercisesAdapter extends  RecyclerView.Adapter<exercisesAdapter.pro
     }
 
     @Override
-    public void onBindViewHolder(@NonNull productViewHolder holder, int i) {
+    public void onBindViewHolder(@NonNull final productViewHolder holder, int i) {
 
 
         final exercise exe = exerciseList.get(i);
         holder.extitle.setText(exe.getTitle());
         holder.imageView.setImageDrawable(context.getResources().getDrawable(exe.getImageView()));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                Intent intent = new Intent(holder.itemView.getContext(), exerciseDescriptionActivity.class);
+                intent.putExtra("title",exe.getTitle());
+                Bundle bundle=new Bundle();
+                bundle.putInt("image",exe.getImageView());
+                intent.putExtras(bundle);
+
+                holder.itemView.getContext().startActivity(intent);
+
+            }
+        });
 
     }
 
