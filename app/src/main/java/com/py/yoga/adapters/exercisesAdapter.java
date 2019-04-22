@@ -54,6 +54,7 @@ public class exercisesAdapter extends  RecyclerView.Adapter<exercisesAdapter.pro
 
                 Intent intent = new Intent(holder.itemView.getContext(), exerciseDescriptionActivity.class);
                 intent.putExtra("title",exe.getTitle());
+                intent.putExtra("desc",exe.getDesc());
                 Bundle bundle=new Bundle();
                 bundle.putInt("image",exe.getImageView());
                 intent.putExtras(bundle);

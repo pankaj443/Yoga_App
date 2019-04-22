@@ -23,6 +23,7 @@ public class exerciseDescriptionActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         final String title = intent.getStringExtra("title");
+        final String desc = intent.getStringExtra("desc");
         Bundle bundle=this.getIntent().getExtras();
         int pic=bundle.getInt("image");
 
@@ -34,6 +35,6 @@ public class exerciseDescriptionActivity extends AppCompatActivity {
         exetitle.setText(title);
         exeimage.setImageResource(pic);
         //exeimage.setImageResource(Integer.parseInt(imageView));
-
+        exedesc.setText(desc);
     }
 }
