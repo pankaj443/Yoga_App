@@ -1,11 +1,15 @@
 package com.py.yoga.object;
 
+import android.graphics.drawable.Drawable;
+
 public class workout
 {
     private int id,imageID;
+    Drawable wallpaper;
     String exercises,duration,description,totalexe;
 
-    public workout(int id,int imageID,String exercises,String duration,String description,String totalexe)
+
+    public workout(int id,int imageID,String exercises,String duration,String description,String totalexe,Drawable wallpaper)
     {
         this.id=id;
         this.imageID=imageID;
@@ -13,6 +17,12 @@ public class workout
         this.description=description;
         this.duration=duration;
         this.totalexe=totalexe;
+        this.wallpaper = wallpaper;
+
+    }
+
+    public Drawable getWallpaper() {
+        return wallpaper;
     }
 
     public int getId() {

@@ -57,6 +57,17 @@ public class workout_desc extends AppCompatActivity {
 
         List.add(new wo_exe(1,"Stand up"));
         List.add(new wo_exe(2,"Wake up"));
+        List.add(new wo_exe(1,"Stand up"));
+        List.add(new wo_exe(2,"Wake up"));
+        List.add(new wo_exe(1,"Stand up"));
+        List.add(new wo_exe(2,"Wake up"));
+        List.add(new wo_exe(2,"Wake up"));
+        List.add(new wo_exe(1,"Stand up"));
+        List.add(new wo_exe(2,"Wake up"));
+
+
+
+
 
         adapter = new wo_exe_Adapter(getApplicationContext(),List);
         recyclerView.setAdapter(adapter);

@@ -16,6 +16,7 @@ import android.util.Log;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.py.yoga.R;
 import com.py.yoga.activities.AlertReceiver;
 
 import java.util.Calendar;
@@ -62,7 +63,10 @@ public class TimePickerFragment extends DialogFragment {
             alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), 1000*60*60*24, pendingIntent);
 
 
+
             Toast.makeText(getContext(), "Reminder Set", Toast.LENGTH_SHORT).show();
         }
     }
+
+
 }

@@ -41,10 +41,13 @@ public class workoutFragment extends Fragment {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
 
-        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises"));
-        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","13 Excercises"));
-        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","13 Excercises"));
-        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","13 Excercises"));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises",getContext().getResources().getDrawable(R.drawable.bg051)));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises",getContext().getResources().getDrawable(R.drawable.bg071)));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises",getContext().getResources().getDrawable(R.drawable.bg091)));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises",getContext().getResources().getDrawable(R.drawable.bg051)));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises",getContext().getResources().getDrawable(R.drawable.bg071)));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises",getContext().getResources().getDrawable(R.drawable.bg091)));
+
 
 
         adapter = new workoutAdapter(getContext(),workoutsList);

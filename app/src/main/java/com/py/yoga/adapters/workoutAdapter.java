@@ -2,12 +2,14 @@ package com.py.yoga.adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.py.yoga.R;
@@ -47,8 +49,9 @@ public class workoutAdapter extends RecyclerView.Adapter<workoutAdapter.productV
         holder.woTotal.setText(current_WO.getTotalexe());
         holder.woDur.setText(current_WO.getDuration());
         holder.woDesc.setText(current_WO.getDescription());
-
-
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
+            holder.linearLayout.setBackground(current_WO.getWallpaper());
+        }
 
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -75,11 +78,12 @@ public class workoutAdapter extends RecyclerView.Adapter<workoutAdapter.productV
     public class productViewHolder extends RecyclerView.ViewHolder
     {
         TextView woName, woTotal, woDur, woDesc;
+        LinearLayout linearLayout;
 
         public productViewHolder(@NonNull final View itemView)
         {
             super(itemView);
-
+            linearLayout = (LinearLayout) itemView.findViewById(R.id.main1);
             woName = (TextView)itemView.findViewById(R.id.wo_name);
             woTotal = (TextView)itemView.findViewById(R.id.wo_totalexe);
             woDur = (TextView)itemView.findViewById(R.id.wo_dur);

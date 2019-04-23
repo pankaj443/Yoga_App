@@ -5,10 +5,10 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="202dp"
-    android:background="@drawable/morning"
-    android:layout_marginLeft="5dp"
+
+    android:layout_marginLeft="4dp"
     android:layout_marginTop="5dp"
-    android:layout_marginRight="5dp"
+    android:layout_marginRight="4dp"
     android:layout_marginBottom="5dp"
     android:orientation="horizontal"
     card_view:cardCornerRadius="5dp">
@@ -17,8 +17,8 @@
         android:id="@+id/main1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/morning">
+        android:background="@drawable/bg051"
+        android:orientation="vertical">
 
 
         <TextView
@@ -28,8 +28,7 @@
             android:padding="15dp"
             android:text="Morning Yoga"
             android:textColor="@android:color/background_light"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textSize="30sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,7 +39,8 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
                 android:layout_weight="1">
 
                 <ImageView
@@ -61,7 +61,8 @@
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
                 android:layout_weight="1">
 
                 <ImageView
@@ -86,6 +87,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal"
             android:padding="8dp">
 

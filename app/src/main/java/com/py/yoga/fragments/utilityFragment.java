@@ -30,7 +30,7 @@ import java.util.Calendar;
 
 public class utilityFragment extends Fragment {
 
-    ImageView share;
+   static ImageView share,tick;
     RatingBar rate;
     CardView alarm,bmi;
 
@@ -45,7 +45,7 @@ public class utilityFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
+        tick =(ImageView) view.findViewById(R.id.tick);
         share =(ImageView) view.findViewById(R.id.share);
         share.setOnClickListener(new View.OnClickListener() {
             @Override
