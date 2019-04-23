@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import com.py.yoga.R;
 import com.py.yoga.activities.tipDescriptionActivity;
+import com.py.yoga.object.exercise;
 import com.py.yoga.object.tips;
 
 import java.util.List;

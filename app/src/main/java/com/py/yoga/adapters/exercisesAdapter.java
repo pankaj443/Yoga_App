@@ -85,5 +85,4 @@ public class exercisesAdapter extends  RecyclerView.Adapter<exercisesAdapter.pro
 
         }
     }
-
 }
