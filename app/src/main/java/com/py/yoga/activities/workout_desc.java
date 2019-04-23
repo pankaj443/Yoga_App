@@ -20,6 +20,8 @@ import java.util.List;
 
 import static java.security.AccessController.getContext;
 
+import com.py.yoga.R;
+
 public class workout_desc extends AppCompatActivity {
 
     RecyclerView recyclerView;

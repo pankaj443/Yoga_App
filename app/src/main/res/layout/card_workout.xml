@@ -4,28 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="202dp"
+    android:background="@drawable/morning"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
     android:layout_marginBottom="5dp"
     android:orientation="horizontal"
-    card_view:cardCornerRadius="10dp"
-    android:layout_marginLeft="5dp"
-    android:layout_marginRight="5dp">
+    card_view:cardCornerRadius="5dp">
 
     <LinearLayout
         android:id="@+id/main1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/morning">
 
 
         <TextView
             android:id="@+id/wo_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:textStyle="bold"
             android:padding="15dp"
-            android:text="Morning Yoga" />
+            android:text="Morning Yoga"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,9 +53,10 @@
                     android:id="@+id/wo_totalexe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
                     android:layout_gravity="center_vertical"
-                    android:text="11 Excercises" />
+                    android:paddingLeft="8dp"
+                    android:text="11 Excercises"
+                    android:textColor="@android:color/background_light" />
             </LinearLayout>
 
             <LinearLayout
@@ -69,9 +74,10 @@
                     android:id="@+id/wo_dur"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="8dp"
                     android:layout_gravity="center_vertical"
-                    android:text="7 minutes" />
+                    android:paddingLeft="8dp"
+                    android:text="7 minutes"
+                    android:textColor="@android:color/background_light" />
             </LinearLayout>
 
 
@@ -79,9 +85,9 @@
 
         <LinearLayout
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp"
-            android:layout_height="wrap_content">
+            android:padding="8dp">
 
             <ImageView
                 android:layout_width="20dp"
@@ -94,7 +100,8 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="8dp"
                 android:paddingBottom="8dp"
-                android:text="A 7 minute morning workout to start a wonderful day!" />
+                android:text="A 7 minute morning workout to start a wonderful day!"
+                android:textColor="@android:color/background_light" />
 
 
         </LinearLayout>

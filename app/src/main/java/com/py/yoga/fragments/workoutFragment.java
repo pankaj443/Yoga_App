@@ -43,6 +43,9 @@ public class workoutFragment extends Fragment {
 
         workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","11 Excercises"));
         workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","13 Excercises"));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","13 Excercises"));
+        workoutsList.add(new workout(1,R.drawable.wo_bg_1,"Morning Yoga","7 Minutes","A 7 minutes morning workout to start a wonderful day","13 Excercises"));
+
 
         adapter = new workoutAdapter(getContext(),workoutsList);
         recyclerView.setAdapter(adapter);

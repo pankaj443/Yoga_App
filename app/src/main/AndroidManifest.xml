@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.workout_desc"></activity>
-        <activity android:name=".activities.exerciseDescriptionActivity" />
+        <activity android:name=".activities.exerciseDescriptionActivity"></activity>
         <activity android:name=".activities.tipDescriptionActivity" />
         <activity
             android:name=".activities.MainActivity"
