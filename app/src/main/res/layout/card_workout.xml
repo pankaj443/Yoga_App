@@ -27,6 +27,7 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:text="Morning Yoga"
+            android:alpha="1"
             android:textColor="@android:color/background_light"
             android:textSize="30sp" />
 
