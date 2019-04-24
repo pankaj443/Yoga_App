@@ -9,20 +9,19 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splashscreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".activities.MainActivity"></activity>
         <activity android:name=".activities.exerciseDescriptionActivity" />
         <activity android:name=".activities.tipDescriptionActivity" />
         <activity android:name=".activities.bmiCalculatorActivity" />
         <activity android:name=".activities.workout_desc" />
         <activity
-            android:name=".activities.MainActivity"
-            android:label="@string/app_name">
+            android:name=".activities.splashActivity"
+            android:theme="@style/splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <receiver android:name=".activities.AlertReceiver" />
