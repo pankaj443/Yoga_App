@@ -1027,4 +1027,36 @@ Improves posture\n
 Stimulates the organs of the abdomen and neck</string>
 
 
+
+
+    <string name="b">Beginner Yoga</string>
+    <string name="b1">Morning Yoga</string>
+    <string name="b2">Dynamic Yoga</string>
+    <string name="b3">Yoga Balance</string>
+    <string name="b4">Core Yoga</string>
+    <string name="b5">Sun Salutation</string>
+    <string name="b6">Power Yoga</string>
+    <string name="b7">Gentle Yoga</string>
+    <string name="b8">Twist Stretch</string>
+    <string name="b9">Back Care</string>
+    <string name="b10">Healthy Heart</string>
+
+
+
+
+    <string name="n">If you are brand new to yoga, there are certain postures that are essential for you to learn.</string>
+    <string name="n1">Looking to start your yoga practice in the morning? Here\'s a great  morning yoga sequence.</string>
+    <string name="n2">Dynamic Yoga is based on sensitivity and guided by softness.
+</string>
+    <string name="n3">Build a strong foundation for your asana practice with these balancing yoga poses.</string>
+    <string name="n4">Engage your abdominal muscles with core yoga poses that build a strong and stable center.</string>
+    <string name="n5">Surya Namaskar is a series of postures that warms, strengthens, and aligns the entire body. </string>
+    <string name="n6">Power yoga is a general term used to describe a vigorous approach to vinyasa-style yoga.</string>
+    <string name="n7">Gentle yoga is done for the joy of stretching and stillness of mind, not for the calories burned. </string>
+    <string name="n8">7 minutes Workout helps us to extend all body parts and release the stress.</string>
+    <string name="n9">Dealing with back pain? These simple yoga poses may help.</string>
+    <string name="n10">Here are some of the most basic and easy yoga postures can ensure maintaining a healthy heart.</string>
+
+
+
 </resources>
