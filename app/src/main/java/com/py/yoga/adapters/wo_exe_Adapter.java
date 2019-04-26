@@ -3,6 +3,7 @@ package com.py.yoga.adapters;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -13,6 +14,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.py.yoga.R;
+import com.py.yoga.activities.exerciseDescriptionActivity;
+import com.py.yoga.activities.tipDescriptionActivity;
 import com.py.yoga.activities.workout_desc;
 import com.py.yoga.object.wo_exe;
 
@@ -44,7 +47,24 @@ public class wo_exe_Adapter extends RecyclerView.Adapter<wo_exe_Adapter.productV
 
         holder.name.setText(current_Object.getName());
         // set image at here
+        holder.image.setImageDrawable(context.getResources().getDrawable(current_Object.getImageView()));
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+
+                Intent intent = new Intent(holder.itemView.getContext(), exerciseDescriptionActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.putExtra("title",current_Object.getName());
+                intent.putExtra("desc",current_Object.getDesc());
+                Bundle bundle=new Bundle();
+                bundle.putInt("image",current_Object.getImageView());
+                intent.putExtras(bundle);
+
+                holder.itemView.getContext().startActivity(intent);
+
+            }
+        });
 
     }
 

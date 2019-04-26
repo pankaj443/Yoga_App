@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="120dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
     android:layout_marginBottom="5dp"
     android:orientation="horizontal"
-    card_view:cardCornerRadius="10dp"
-    android:layout_marginLeft="5dp"
-    android:layout_marginRight="5dp">
+    card_view:cardCornerRadius="10dp">
 
 
     <LinearLayout
@@ -19,12 +19,14 @@
 
         <TextView
             android:id="@+id/card_exe_name"
-            android:layout_width="110dp"
+            android:layout_width="150dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="5dp"
             android:gravity="center"
-            android:text="Exercise 1" />
+            android:text="Exercise 1"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
 
 
         <View
@@ -39,8 +41,6 @@
             android:src="@drawable/wo_logo_star" />
 
     </LinearLayout>
-
-
 
 
 </android.support.v7.widget.CardView>

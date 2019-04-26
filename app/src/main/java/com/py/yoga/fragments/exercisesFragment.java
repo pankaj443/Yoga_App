@@ -75,6 +75,20 @@ public class exercisesFragment extends Fragment {
         exerciselist.add(new exercise(28,getActivity().getString(R.string.x28),R.raw.dandasana,getActivity().getString(R.string.z28)));
         exerciselist.add(new exercise(29,getActivity().getString(R.string.x29),R.raw.purvottanasana,getActivity().getString(R.string.z29)));
         exerciselist.add(new exercise(30,getActivity().getString(R.string.x30),R.raw.ustrasana,getActivity().getString(R.string.z30)));
+        exerciselist.add(new exercise(1,getString(R.string.ba),R.raw.utthita_hasta_padangustasana,getString(R.string.bal)));
+        exerciselist.add(new exercise(1,getString(R.string.ba1),R.raw.ardha_chandrasana,getString(R.string.bal1)));
+        exerciselist.add(new exercise(1,getString(R.string.ba2),R.raw.adho_mukha_vrksasana,getString(R.string.bal2)));
+        exerciselist.add(new exercise(1,getString(R.string.ba3),R.raw.vasisthasana,getString(R.string.bal3)));
+        exerciselist.add(new exercise(1,getString(R.string.ba4),R.raw.salamba_sirsasana,getString(R.string.bal4)));
+        exerciselist.add(new exercise(1,getString(R.string.ba5),R.raw.salamba_sarvangasana,getString(R.string.bal5)));
+        exerciselist.add(new exercise(1,getString(R.string.ba6),R.raw.virabhadrasana3,getString(R.string.bal6)));
+        exerciselist.add(new exercise(1,getString(R.string.co),R.raw.paripurna_navasana,getString(R.string.cor1)));
+        exerciselist.add(new exercise(1,getString(R.string.co1),R.raw.marjaryasana,getString(R.string.cor2)));
+        exerciselist.add(new exercise(1,getString(R.string.co2),R.raw.bakasana,getString(R.string.cor3)));
+        exerciselist.add(new exercise(1,getString(R.string.co3),R.raw.dolphin_pose,getString(R.string.cor4)));
+        exerciselist.add(new exercise(1,getString(R.string.co4),R.raw.chaturanga_dandasana,getString(R.string.cor5)));
+        exerciselist.add(new exercise(1,getString(R.string.co5),R.raw.ananda_balasana,getString(R.string.cor6)));
+        exerciselist.add(new exercise(1,getString(R.string.co6),R.raw.plank_pose,getString(R.string.cor7)));
 
 
 
