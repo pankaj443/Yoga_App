@@ -223,15 +223,15 @@ public class workout_desc extends AppCompatActivity {
 
 
 
-        List10.add(new wo_exe(1,getString(R.string.x28),R.raw.dandasana,getString(R.string.x28)));
-        List10.add(new wo_exe(1,getString(R.string.x25),R.raw.bhujangasana,getString(R.string.x25)));
-        List10.add(new wo_exe(1,getString(R.string.x26),R.raw.virasana,getString(R.string.x26)));
-        List10.add(new wo_exe(1,getString(R.string.x21),R.raw.urdhva_mukha_svanasana,getString(R.string.x21)));
-        List10.add(new wo_exe(1,getString(R.string.x16),R.raw.paschimottanasana,getString(R.string.x16)));
-        List10.add(new wo_exe(1,getString(R.string.x11),R.raw.bharadvajasana,getString(R.string.x11)));
-        List10.add(new wo_exe(1,getString(R.string.x12),R.raw.ardha_matsyendrasana,getString(R.string.x12)));
-        List10.add(new wo_exe(1,getString(R.string.x10),R.raw.anjaneyasana,getString(R.string.x10)));
-        List10.add(new wo_exe(1,getString(R.string.x14),R.raw.parivrtta_parsvakonasana,getString(R.string.x14)));
+        List10.add(new wo_exe(1,getString(R.string.x28),R.raw.dandasana,getString(R.string.z28)));
+        List10.add(new wo_exe(1,getString(R.string.x25),R.raw.bhujangasana,getString(R.string.z25)));
+        List10.add(new wo_exe(1,getString(R.string.x26),R.raw.virasana,getString(R.string.z26)));
+        List10.add(new wo_exe(1,getString(R.string.x21),R.raw.urdhva_mukha_svanasana,getString(R.string.z21)));
+        List10.add(new wo_exe(1,getString(R.string.x16),R.raw.paschimottanasana,getString(R.string.z16)));
+        List10.add(new wo_exe(1,getString(R.string.x11),R.raw.bharadvajasana,getString(R.string.z11)));
+        List10.add(new wo_exe(1,getString(R.string.x12),R.raw.ardha_matsyendrasana,getString(R.string.z12)));
+        List10.add(new wo_exe(1,getString(R.string.x10),R.raw.anjaneyasana,getString(R.string.z10)));
+        List10.add(new wo_exe(1,getString(R.string.x14),R.raw.parivrtta_parsvakonasana,getString(R.string.z14)));
         List10.add(new wo_exe(1,getString(R.string.x15),R.raw.parivrtta_janu_sirsasana,getString(R.string.z15)));
 
 

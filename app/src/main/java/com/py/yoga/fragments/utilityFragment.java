@@ -22,6 +22,11 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TimePicker;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.py.yoga.R;
 import com.py.yoga.activities.AlertReceiver;
 import com.py.yoga.activities.bmiCalculatorActivity;
@@ -33,7 +38,7 @@ public class utilityFragment extends Fragment {
    static ImageView share,tick;
     RatingBar rate;
     CardView alarm,bmi;
-
+    private AdView mAdView;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -45,6 +50,52 @@ public class utilityFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+        MobileAds.initialize(this.getContext(), "ca-app-pub-8427729765627466~9350858481");
+        AdView adView = new AdView(this.getContext());
+        adView.setAdSize(AdSize.SMART_BANNER);
+        adView.setAdUnitId("ca-app-pub-8427729765627466/5411613478");
+        mAdView = view.findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+        mAdView.setAdListener(new AdListener() {
+            @Override
+            public void onAdLoaded() {
+                // Code to be executed when an ad finishes loading.
+            }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                // Code to be executed when an ad request fails.
+            }
+
+            @Override
+            public void onAdOpened() {
+                // Code to be executed when an ad opens an overlay that
+                // covers the screen.
+            }
+
+            @Override
+            public void onAdClicked() {
+                // Code to be executed when the user clicks on an ad.
+            }
+
+            @Override
+            public void onAdLeftApplication() {
+                AdRequest adRequest = new AdRequest.Builder().build();
+                mAdView.loadAd(adRequest);
+                // Code to be executed when the user has left the app.
+            }
+
+            @Override
+            public void onAdClosed() {
+                AdRequest adRequest = new AdRequest.Builder().build();
+                mAdView.loadAd(adRequest);
+                // Code to be executed when the user is about to return
+                // to the app after tapping on an ad.
+            }
+        });
+
         tick =(ImageView) view.findViewById(R.id.tick);
         share =(ImageView) view.findViewById(R.id.share);
         share.setOnClickListener(new View.OnClickListener() {
