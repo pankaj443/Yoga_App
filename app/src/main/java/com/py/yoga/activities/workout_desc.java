@@ -26,6 +26,7 @@ public class workout_desc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout_desc);
 
+
         Intent i=getIntent();
 
         TextView title=findViewById(R.id.wo_d_name);

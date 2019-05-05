@@ -43,7 +43,7 @@ public class adrineAdapter extends RecyclerView.Adapter<adrineAdapter.productVie
         final adrine tip = adrineList.get(i);
         holder.adrinetitle.setText(tip.getTitle());
 
-        holder.adrinecount.setImageDrawable(context.getResources().getDrawable(tip.getImage()));
+
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -67,14 +67,14 @@ public class adrineAdapter extends RecyclerView.Adapter<adrineAdapter.productVie
     class productViewHolder extends RecyclerView.ViewHolder{
 
         TextView adrinetitle;
-        ImageView adrinecount;
+
 
         public productViewHolder(@NonNull final View itemView) {
             super(itemView);
 
 
             adrinetitle = itemView.findViewById(R.id.adrinetitle);
-            adrinecount = itemView.findViewById(R.id.adrinecount);
+
 
 
         }

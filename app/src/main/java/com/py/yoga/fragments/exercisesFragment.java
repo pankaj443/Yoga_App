@@ -13,6 +13,7 @@ import android.widget.ImageView;
 
 import com.py.yoga.R;
 
+import com.py.yoga.activities.exerciseDescriptionActivity;
 import com.py.yoga.adapters.exercisesAdapter;
 import com.py.yoga.object.exercise;
 
@@ -38,6 +39,7 @@ public class exercisesFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
 
         exerciselist = new ArrayList<>();
         recyclerView_e = (RecyclerView)view.findViewById(R.id.recyclerview_e);

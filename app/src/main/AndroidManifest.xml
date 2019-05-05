@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.chActivity"></activity>
+        <activity android:name=".activities.chActivity" />
         <activity android:name=".activities.timActivity" />
         <activity android:name=".activities.youtubeListActivity" />
         <activity android:name=".activities.MainActivity" />
