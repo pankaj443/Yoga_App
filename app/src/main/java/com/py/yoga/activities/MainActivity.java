@@ -12,6 +12,7 @@ import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.reward.RewardedVideoAd;
 import com.py.yoga.R;
+import com.py.yoga.fragments.challengeFragment;
 import com.py.yoga.fragments.exercisesFragment;
 import com.py.yoga.fragments.tipsFragment;
 import com.py.yoga.fragments.utilityFragment;
@@ -44,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_utilities:
                     fragment = new utilityFragment();
                 break;
+                case R.id.navigation_challenge:
+                    fragment = new challengeFragment();
+                    break;
             }
             displayfrag(fragment);
             return true;

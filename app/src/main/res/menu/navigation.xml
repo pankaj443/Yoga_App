@@ -10,6 +10,11 @@ android:icon="@drawable/icons8yoga"
         android:id="@+id/navigation_excercises"
 android:icon="@drawable/icons8dumbbell"
         android:title="@string/title_excercises" />
+    <item
+        android:id="@+id/navigation_challenge"
+        android:icon="@drawable/challenge"
+        android:title="@string/title_challenge" />
+
 
     <item
         android:id="@+id/navigation_tips"

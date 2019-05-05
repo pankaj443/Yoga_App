@@ -10,7 +10,7 @@
         android:gravity="center"
        />
     <item android:drawable="@drawable/name"
-        android:width="140dp"
+        android:width="150dp"
         android:height="30dp"
         android:gravity="center_horizontal"
         android:top="450dp"

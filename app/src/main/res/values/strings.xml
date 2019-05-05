@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">Yoga Fitness</string>
+    <string name="app_name">Yoga Workout</string>
     <string name="title_workout">Workout</string>
     <string name="title_excercises">Excersices</string>
     <string name="title_utilities">Utility</string>
     <string name="title_tips">Tips</string>
+    <string name="title_challenge">Challenge</string>
 
     <string name="q">Prepare</string>
     <string name="w">Identify A Comfortable Space</string>
@@ -26,7 +27,7 @@
     <string name="w1">Yoga calls for a space that is well lit and properly ventilated. It helps if the setting is serene as maximum Benefitsfrom yoga can be reaped when performed in a soothing environment. Add candles to light up your room, in case the room is not sufficiently lit. Ensure that there are no sharp objects or furniture around you, as they could cause injuries when stretching during the asanas.
 </string>
     <string name="e1">It is very important to wear clothing that is comfortable while you perform yoga. A relaxed track pant with a loose-fitting tee is a great option for many. You can also choose from the numerous attires that are available in the market these days. The key is to opt for designs that let you breathe and for materials that absorb sweat along the way.</string>
-    <string name="r1">Identify your goals before you start practicing. Chart out a plan for yourself and make sure that it is specific, measurable, achievable, reliable, and timely. Be reasonable in your expectations and bear in mind that yoga is not meant for achieving physical \n\nBenefits\n\n only.</string>
+    <string name="r1">Identify your goals before you start practicing. Chart out a plan for yourself and make sure that it is specific, measurable, achievable, reliable, and timely. Be reasonable in your expectations and bear in mind that yoga is not meant for achieving physical Benefits only.</string>
     <string name="t1">The ideal time to practice yoga is early in the morning before the sun rises or in the evening after the sun sets. Decide on a time that is most suited to you and devote that time in its entirety to yoga every day. Resolve to practice yoga every day. Yes, every day, even if you do it just for 20 minutes. Further, resolve to try a new posture every week. This way will not only make you become more adept at the yoga, but also make you learn more poses.</string>
     <string name="y1">Do not multitask while practicing yoga at home. Those endless chores, phone calls, and the lure of social networking sites can wait for a more suitable time. Your sole focus while practicing yoga must be on your goals and the asanas that you perform. The slightest carelessness can at times result in grave injuries.</string>
     <string name="u1">Start your practice with very basic yoga postures if you are a complete beginner. Like, start with basic seated postures, such as Sukhasana, Vajrasana, and stretches like Balasana and Pawanmuktasana. You need to slowly acquaint yourself with the yogic practice. So, it is better to slowly open your body to the restorative postures and then move forward.</string>
@@ -72,16 +73,12 @@
     <string name="x30">Ustrasana</string>
 
 
-
-
-
-<string name="bc">Matsyasana</string>
+    <string name="bc">Matsyasana</string>
     <string name="bc1">Salabhasana</string>
     <string name="bc2">Eka Pada Rajakapotasana</string>
     <string name="bc3">Eka Pada Rajakapotasana II</string>
     <string name="bc4">Sphinx Pose</string>
     <string name="bc5">Camatkarasana</string>
-
 
 
     <string name="bck">How To Perform:\n\nStep 1\n\n
@@ -90,7 +87,7 @@ Lie on your back on the floor with your knees bent, feet on the floor. Inhale, l
 
 \n\nStep 2\n\n
 
-Inhale and press your forearms and elbows firmly against the floor. Next press your scapulas into your back and, with an inhale, lift your upper torso and head away from the floor. Then release your head back onto the floor. Depending on how high you arch your back and lift your chest, either the back of your head or its crown will rest on the floor. There should be a minimal amount of weight on your head to avoid crunching your neck. (For more about this, see the Beginners Tip below.)
+Inhale and press your forearms and elbows firmly against the floor. Next press your scapulas into your back and, with an inhale, lift your upper torso and head away from the floor. Then release your head back onto the floor. Depending on how high you arch your back and lift your chest, either the back of your head or its crown will rest on the floor.
 
 
 
@@ -147,7 +144,7 @@ Stimulates abdominal organs\n
 Helps relieve stress</string>
     <string name="bck2">How To Perform:\n\nStep 1\n\n
 
-Begin on all fours, with your knees directly below your hips, and your hands slightly ahead of your shoulders. Slide your right knee forward to the back of your right wrist; at the same time angle your right shin under your torso and bring your right foot to the front of your left knee. The outside of your right shin will now rest on the floor. Slowly slide your left leg back, straightening the knee and descending the front of the thigh to the floor. Lower the outside of your right buttock to the floor. Position the right heel just in front of the left hip.
+Begin on all fours, with your knees directly below your hips, and your hands slightly ahead of your shoulders. Slide your right knee forward to the back of your right wrist; at the same time angle your right shin under your torso and bring your right foot to the front of your left knee. The outside of your right shin will now rest on the floor. Slowly slide your left leg back, straightening the knee and descending the front of the thigh to the floor.
 
 \n\nStep 2\n\n
 
@@ -163,7 +160,7 @@ Then slide your hands back toward the front shin and push your fingertips firmly
 
 \n\nStep 4\n\n
 
-If you can maintain the upright position of your pelvis without the support of your hands on the floor, bring your hands to the top rim of your pelvis. Push heavily down. Against this pressure, lift the lower rim of your rib cage. The back ribs should lift a little faster than the front. Without shortening the back of your neck, drop your head back. To lift your chest, push the top of your sternum (at the manubrium) straight up toward the ceiling.
+If you can maintain the upright position of your pelvis without the support of your hands on the floor, bring your hands to the top rim of your pelvis. Push heavily down. Against this pressure, lift the lower rim of your rib cage. The back ribs should lift a little faster than the front. Without shortening the back of your neck, drop your head back. To lift your chest, push the top of your sternum straight up toward the ceiling.
 
 \n\nStep 5\n\n
 
@@ -219,7 +216,7 @@ Now set your elbows under your shoulders and your forearms on the floor parallel
 
 \n\nStep 4\n\n
 
-The final step to building a solid foundation in Sphinx Pose is to bring awareness to your lower belly, the area just above the pubic bone and below the navel. Lightly draw it away from the floor to create a dome that rounds up toward your lower back. This is very subtle—no sucking in, hardening, or rigidity required. This belly lift supports and distributes the curvature of your backbend more evenly along the length of the spine, soothing your lower back and awakening your upper back.
+The final step to building a solid foundation in Sphinx Pose is to bring awareness to your lower belly, the area just above the pubic bone and below the navel. Lightly draw it away from the floor to create a dome that rounds up toward your lower back. This is very subtle—no sucking in, hardening, or rigidity required.
 
 
 \n\nStep 5\n\n
@@ -273,9 +270,7 @@ Opens the front of the legs and hip flexors\n
 Builds strength in shoulders and upper back</string>
 
 
-
-
-<string name="co">Paripurna Navasana</string>
+    <string name="co">Paripurna Navasana</string>
     <string name="co1">Marjaryasana</string>
     <string name="co2">Bakasana</string>
     <string name="co3">Dolphin Pose</string>
@@ -338,7 +333,7 @@ Squat down from Tadasana with your inner feet a few inches apart. If it isn\'t p
 
 \n\nStep 2\n\n
 
-Snuggle your inner thighs against the sides of your torso, and your shins into your armpits, and slide the upper arms down as low onto the shins as possible. Lift up onto the balls of your feet and lean forward even more, taking the weight of your torso onto the backs of the upper arms. In Bakasana you consciously attempt to contract your front torso and round your back completely. To help yourself do this, keep your tailbone as close to your heels as possible.
+Snuggle your inner thighs against the sides of your torso, and your shins into your armpits, and slide the upper arms down as low onto the shins as possible. Lift up onto the balls of your feet and lean forward even more, taking the weight of your torso onto the backs of the upper arms. In Bakasana you consciously attempt to contract your front torso and round your back completely.
 
 
 \n\nStep 3\n\n
@@ -347,7 +342,7 @@ With an exhalation, lean forward even more onto the backs of your upper arms, to
 
 \n\nStep 4\n\n
 
-But if you are ready to go further, squeeze the legs against the arms, press the inner hands firmly to the floor and (with an inhalation) straighten the elbows. Seen from the side the arms are angled slightly forward relative to the floor. The inner knees should be glued to the outer arms, high up near the armpits. Keep the head in a neutral position with your eyes looking at the floor, or lift the head slightly, without compressing the back of the neck, and look forward.
+But if you are ready to go further, squeeze the legs against the arms, press the inner hands firmly to the floor and (with an inhalation) straighten the elbows. Seen from the side the arms are angled slightly forward relative to the floor. The inner knees should be glued to the outer arms, high up near the armpits. Keep the head in a neutral position with your eyes looking at the floor, or lift the head slightly.
 
 
 \n\nStep 5\n\n
@@ -461,12 +456,6 @@ Strengthens the arms, wrists, and spine\n
 Tones the abdomen</string>
 
 
-
-
-
-
-
-
     <string name="ba">Utthita Hasta Padangustasana</string>
     <string name="ba1">Ardha Chandrasana</string>
     <string name="ba2">Adho Mukha Vrksasana</string>
@@ -474,12 +463,6 @@ Tones the abdomen</string>
     <string name="ba4">Salamba Sirsasana</string>
     <string name="ba5">Salamba Sarvangasana</string>
     <string name="ba6">Virabhadrasana III</string>
-
-
-
-
-
-
 
 
     <string name="bal">How To Perform:\n\nStep 1\n\n
@@ -541,14 +524,14 @@ Helps relieve stress\n
 Improves digestion</string>
     <string name="bal2">How To Perform:\n\nStep 1\n\n
 
-Perform Adho Mukha Svanasana (Downward-Facing Dog Pose) with your fingertips an inch or two away from a wall, hands shoulder-width. If your shoulders are tight, turn your index fingers out slightly; otherwise arrange them parallel to each other. If you\'re uneasy about this pose, you\'re not alone. To ready yourself for and secure yourself in this inversion, firm your shoulder blades against your back torso and pull them toward your tailbone. Then rotate your upper arms outward, to keep the shoulder blades broad, and hug your outer arms inward. Finally spread your palms and press the bases of the index fingers firmly against the floor.
+Perform Adho Mukha Svanasana (Downward-Facing Dog Pose) with your fingertips an inch or two away from a wall, hands shoulder-width. If your shoulders are tight, turn your index fingers out slightly; otherwise arrange them parallel to each other. If you\'re uneasy about this pose, you\'re not alone.
 
 
 
 
 \n\nStep 2\n\n
 
-Now bend one knee and step the foot in, closer to the wall (we\'ll say it\'s the left leg), but keep the other (i.e. right) leg active by extending through the heel. Then take a few practice hops before you try to launch yourself upside down. Sweep your right leg through a wide arc toward the wall and kick your left foot off the floor, immediately pushing through the heel to straighten the left knee. As both legs come off the ground, engage your deep core abdominal muscles to help lift your hips over your shoulders. Hop up and down like this several times, each time pushing off the floor a little higher. Exhale deeply each time you hop.
+Now bend one knee and step the foot in, closer to the wall (we\'ll say it\'s the left leg), but keep the other (i.e. right) leg active by extending through the heel. Then take a few practice hops before you try to launch yourself upside down. Sweep your right leg through a wide arc toward the wall and kick your left foot off the floor, immediately pushing through the heel to straighten the left knee. As both legs come off the ground, engage your deep core abdominal muscles to help lift your hips over your shoulders.
 
 
 \n\nStep 3\n\n
@@ -610,7 +593,7 @@ Stretches the backs of the legs\n
 Improves sense of balance</string>
     <string name="bal4">How To Perform:\n\nStep 1\n\n
 
-Use a folded blanket or sticky mat to pad your head and forearms. Kneel on the floor. Lace your fingers together and set the forearms on the floor, elbows at shoulder width. Roll the upper arms slightly outward, but press the inner wrists firmly into the floor. Set the crown of your head on the floor. If you are just beginning to practice this pose, press the bases of your palms together and snuggle the back of your head against the clasped hands. More experienced students can open their hands and place the back of the head into the open palms.
+Use a folded blanket or sticky mat to pad your head and forearms. Kneel on the floor. Lace your fingers together and set the forearms on the floor, elbows at shoulder width. Roll the upper arms slightly outward, but press the inner wrists firmly into the floor. Set the crown of your head on the floor. If you are just beginning to practice this pose, press the bases of your palms together and snuggle the back of your head against the clasped hands.
 
 
 \n\nStep 2\n\n
@@ -622,7 +605,7 @@ Inhale and lift your knees off the floor. Carefully walk your feet closer to you
 
 \n\nStep 3\n\n
 
-Exhale and lift your feet away from the floor. Take both feet up at the same time, even if it means bending your knees and hopping lightly off the floor. As the legs (or thighs, if your knees are bent) rise to perpendicular to the floor, firm the tailbone against the back of the pelvis. Turn the upper thighs in slightly, and actively press the heels toward the ceiling (straightening the knees if you bent them to come up). The center of the arches should align over the center of the pelvis, which in turn should align over the crown of the head.
+Exhale and lift your feet away from the floor. Take both feet up at the same time, even if it means bending your knees and hopping lightly off the floor. As the legs (or thighs, if your knees are bent) rise to perpendicular to the floor, firm the tailbone against the back of the pelvis. Turn the upper thighs in slightly, and actively press the heels toward the ceiling. The center of the arches should align over the center of the pelvis, which in turn should align over the crown of the head.
 
 
 \n\nStep 4\n\n
@@ -634,13 +617,13 @@ Firm the outer arms inward, and soften the fingers. Continue to press the should
 As a beginning practitioner stay for 10 seconds. Gradually add 5 to 10 seconds onto your stay every day or so until you can comfortably hold the pose for 3 minutes. Then continue for 3 minutes each day for a week or two, until you feel relatively comfortable in the pose. Again gradually add 5 to 10 seconds onto your stay every day or so until you can comfortably hold the pose for 5 minutes. Come down with an exhalation, without losing the lift of the shoulder blades, with both feet touching the floor at the same time.</string>
     <string name="bal5">How To Perform:\n\nStep 1\n\n
 
-Fold two or more firm blankets into rectangles measuring about 1 foot by 2 feet, and stack them one on top of the other. You can place a sticky mat over the blankets to help the upper arms stay in place while in the pose. Then lie on the blankets with your shoulders supported (and parallel to one of the longer edges) and your head on the floor. Lay your arms on the floor alongside your torso, then bend your knees and set your feet against the floor with the heels close to the sitting bones. Exhale, press your arms against the floor, and push your feet away from the floor, drawing your thighs into the front torso.
+Fold two or more firm blankets into rectangles measuring about 1 foot by 2 feet, and stack them one on top of the other. You can place a sticky mat over the blankets to help the upper arms stay in place while in the pose. Then lie on the blankets with your shoulders supported (and parallel to one of the longer edges) and your head on the floor. Lay your arms on the floor alongside your torso, then bend your knees and set your feet against the floor with the heels close to the sitting bones.
 
 
 
 \n\nStep 2\n\n
 
-Continue to lift by curling the pelvis and then the back torso away from the floor, so that your knees come toward your face. Stretch your arms out parallel to the edge of the blanket and turn them outward so the fingers press against the floor (and the thumbs point behind you). Bend your elbows and draw them toward each other. Lay the backs of your upper arms on the blanket and spread your palms against the back of your torso. Raise your pelvis over the shoulders, so that the torso is relatively perpendicular to the floor. Walk your hands up your back (toward the floor) without letting the elbows slide too much wider than shoulder width.
+Continue to lift by curling the pelvis and then the back torso away from the floor, so that your knees come toward your face. Stretch your arms out parallel to the edge of the blanket and turn them outward so the fingers press against the floor (and the thumbs point behind you). Bend your elbows and draw them toward each other. Lay the backs of your upper arms on the blanket and spread your palms against the back of your torso. Raise your pelvis over the shoulders, so that the torso is relatively perpendicular to the floor.
 
 
 \n\nStep 3\n\n
@@ -654,7 +637,7 @@ Soften the throat and tongue. Firm the shoulder blades against the back, and mov
 
 \n\nStep 5\n\n
 
-As a beginning practitioner stay in the pose for about 30 seconds. Gradually add 5 to 10 seconds to your stay every day or so until you can comfortably hold the pose for 3 minutes. Then continue for 3 minutes each day for a week or two, until you feel relatively comfortable in the pose. Again gradually and 5 to 10 seconds onto your stay every day or so until you can comfortably hold the pose for 5 minutes. To come down, exhale, bend your knees into your torso again, and roll your back torso slowly and carefully onto the floor, keeping the back of your head on the floor.
+As a beginning practitioner stay in the pose for about 30 seconds. Gradually add 5 to 10 seconds to your stay every day or so until you can comfortably hold the pose for 3 minutes. Then continue for 3 minutes each day for a week or two, until you feel relatively comfortable in the pose. Again gradually and 5 to 10 seconds onto your stay every day or so until you can comfortably hold the pose for 5 minutes. To come down, exhale, bend your knees into your torso again, and roll your back torso slowly and carefully onto the floor.
 
 
 \n\nBenefits\n\n
@@ -668,7 +651,7 @@ Reduces fatigue and alleviates insomnia\n
 Therapeutic for asthma, infertility, and sinusitis</string>
     <string name="bal6">How To Perform:\n\nStep 1\n\n
 
-Stand in Tadasana (Mountain Pose), exhale and fold foward to Uttanasana. From Uttanasana, exhale and step your left foot back into a high lunge position. Your right knee should be more or less at a right angle. Lay the midline of your torso (from the pubis to the sternum) down on the midline of the right thigh (from the knee to the hip crease) and bring your hands to your right knee, right hand to the outer knee, left hand to the inner. Squeeze the knee with your hands, lift your torso slightly, and with an exhalation, turn it slightly to the right.
+Stand in Tadasana (Mountain Pose), exhale and fold foward to Uttanasana. From Uttanasana, exhale and step your left foot back into a high lunge position. Your right knee should be more or less at a right angle. Lay the midline of your torso (from the pubis to the sternum) down on the midline of the right thigh (from the knee to the hip crease) and bring your hands to your right knee, right hand to the outer knee, left hand to the inner. Squeeze the knee with your hands, lift your torso slightly, and with an exhalation.
 
 \n\nStep 2\n\n
 
@@ -686,13 +669,6 @@ The arms, torso, and raised leg should be positioned relatively parallel to the 
 \n\nStep 5\n\n
 
 Stay in this position for 30 seconds to a minute. Release back to the lunge on an exhalation. Bring your hands to the floor on either side of the right foot, and on an exhalation, step your left foot forward to meet your right. Stay in this forward bend for a few breaths, then repeat for the same length of time on the other side.</string>
-
-
-
-
-
-
-
 
 
     <string name="z1">How To Perform:\n\nStep 1\n\n
@@ -916,7 +892,7 @@ Pay close attention to the standing leg, especially the angle of the knee. The k
 
 \n\nStep 6\n\n
 
-Feel how the downward energy of the standing leg creates an upward movement in the raised leg. Don\'t focus on how high your raised leg goes; instead, work toward directing equal energy into both legs. You can hold the raised leg more or less parallel to the floor, or try to raise it slightly higher; ideally your torso should descend as the leg ascends. If you\'re flexible you can grasp the back of the standing-leg ankle with your hand.
+Feel how the downward energy of the standing leg creates an upward movement in the raised leg. Don\'t focus on how high your raised leg goes; instead, work toward directing equal energy into both legs. You can hold the raised leg more or less parallel to the floor, or try to raise it slightly higher; ideally your torso should descend as the leg ascends.
 
 
 
@@ -1042,7 +1018,7 @@ You can turn your head in one of two directions: Continue the twist of the torso
 
 \n\nStep 5\n\n
 
-With every inhalation lift a little more through the sternum, pushing the fingers against the floor to help. Twist a little more with every exhalation. Be sure to distribute the twist evenly throughout the entire length of the spine; don\'t concentrate it in the lower back. Stay for 30 seconds to 1 minute, then release with an exhalation, return to the starting position, and repeat to the left for the same length of time. Watch a video demonstration of this pose.
+With every inhalation lift a little more through the sternum, pushing the fingers against the floor to help. Twist a little more with every exhalation. Be sure to distribute the twist evenly throughout the entire length of the spine; don\'t concentrate it in the lower back. Stay for 30 seconds to 1 minute, then release with an exhalation, return to the starting position, and repeat to the left for the same length of time.
 
 
 \n\nBenefits\n\n
@@ -1055,7 +1031,7 @@ Therapeutic for asthma and infertility\n
 Traditional texts say that Ardha Matsyendrasana increases appetite, destroys most deadly diseases, and awakens kundalini.</string>
     <string name="z13">How To Perform:\n\nStep 1\n\n
 
-Sit in Dandanasa (Staff Pose), then bend your right knee and put the foot on the floor, with the heel as close to the right sitting bone as possible. Keep the left leg strong and rotated slightly inward; ground the head of the thigh bone into the floor. Press the back of the left heel and the base of the big toe away from the pelvis. Also press the inner right foot actively into the floor, but soften the inner right groin to receive the pubis as you twist. Grounding the straight-leg thigh and bent-knee foot will help you lengthen your spine, which is always the first prerequisite of a successful twist.
+Sit in Dandanasa (Staff Pose), then bend your right knee and put the foot on the floor, with the heel as close to the right sitting bone as possible. Keep the left leg strong and rotated slightly inward; ground the head of the thigh bone into the floor. Press the back of the left heel and the base of the big toe away from the pelvis.
 
 
 
@@ -1068,7 +1044,7 @@ With an exhalation, rotate your torso to the right and wrap your left arm around
 
 \n\nStep 3\n\n
 
-Remember to keep your straight leg and bent-knee foot grounded. Sink the inner right groin deeper into the pelvis, then lengthen your front belly up out of the groin along the inner right thigh. Continue lengthening the spine with each inhalation, and twist a little more with each exhalation. Hug the thigh to your belly, then lean back against your shoulder blades into an upper-back backbend. Gently turn your head to the right to complete the twist in your cervical spine.
+Remember to keep your straight leg and bent-knee foot grounded. Sink the inner right groin deeper into the pelvis, then lengthen your front belly up out of the groin along the inner right thigh. Continue lengthening the spine with each inhalation, and twist a little more with each exhalation. Hug the thigh to your belly, then lean back against your shoulder blades into an upper-back backbend.
 
 
 
@@ -1091,7 +1067,7 @@ Stand in Tadasana. With an exhalation, \n\nStep or lightly jump your feet 3½ to
 
 \n\nStep 2\n\n
 
-Exhale and turn your torso to the right until you’re facing directly out over the right leg; as you do this, lift your left heel off the floor and spin on the ball of the foot until the inner left foot is parallel to the inner right foot. Then exhale again and bend your right knee. If possible, bring the right thigh parallel to the floor. Keep your left leg active by pressing the thigh up toward the ceiling and extending strongly through the left heel. At the same time, resist the lift of the left thigh by pressing the tailbone toward the pubis.
+Exhale and turn your torso to the right until you’re facing directly out over the right leg; as you do this, lift your left heel off the floor and spin on the ball of the foot until the inner left foot is parallel to the inner right foot. Then exhale again and bend your right knee. If possible, bring the right thigh parallel to the floor. Keep your left leg active by pressing the thigh up toward the ceiling and extending strongly through the left heel.
 
 
 
@@ -1104,7 +1080,7 @@ With another exhale turn further to the right and lean the torso down, placing t
 
 \n\nStep 4\n\n
 
-If this position seems challenging enough, stay for the recommended time. If you want to go further, bend your left elbow and bring it to the outside of the right knee. Resist the knee and elbow against each other. If possible, straighten your left elbow and reach the hand toward the floor (if you can’t reach the floor, support your hand on a block). You can keep your right hand on your hip, or stretch it over the back of the right ear with the palm facing down. Then turn your head to look at the right arm. As in all twists lengthen and soften the belly, extend the spine with each inhalation, and increase the twist as you exhale.
+If this position seems challenging enough, stay for the recommended time. If you want to go further, bend your left elbow and bring it to the outside of the right knee. Resist the knee and elbow against each other. If possible, straighten your left elbow and reach the hand toward the floor (if you can’t reach the floor, support your hand on a block). You can keep your right hand on your hip, or stretch it over the back of the right ear with the palm facing down.
 
 \n\nStep 5\n\n
 
@@ -1163,7 +1139,7 @@ Draw the inner groins deep into the pelvis. Inhale, and keeping the front torso 
 
 \n\nStep 3\n\n
 
-When you are ready to go further, don\'t forcefully pull yourself into the forward bend, whether your hands are on the feet or holding the strap. Always lengthen the front torso into the pose, keeping your head raised. If you are holding the feet, bend the elbows out to the sides and lift them away from the floor; if holding the strap, lighten your grip and walk the hands forward, keeping the arms long. The lower belly should touch the thighs first, then the upper belly, then the ribs, and the head last.
+When you are ready to go further, don\'t forcefully pull yourself into the forward bend, whether your hands are on the feet or holding the strap. Always lengthen the front torso into the pose, keeping your head raised. If you are holding the feet, bend the elbows out to the sides and lift them away from the floor; if holding the strap, lighten your grip and walk the hands forward, keeping the arms long.
 
 \n\nStep 4\n\n
 
@@ -1622,14 +1598,14 @@ Rest your hands on the back of your pelvis, bases of the palms on the tops of th
 
 \n\nStep 3\n\n
 
-Now lean back against the firmness of the tail bone and shoulder blades. For the time being keep your head up, chin near the sternum, and your hands on the pelvis. Beginners probably won\'t be able to drop straight back into this pose, touching the hands to the feet simultaneously while keeping the thighs perpendicular to the floor. If you need to, tilt the thighs back a little from the perpendicular and minimally twist to one side to get one hand on the same-side foot. Then press your thighs back to perpendicular, turn your torso back to neutral, and touch the second hand to its foot. If you\'re not able to touch your feet without compressing your lower back, turn your toes under and elevate your heels.
+Now lean back against the firmness of the tail bone and shoulder blades. For the time being keep your head up, chin near the sternum, and your hands on the pelvis. Beginners probably won\'t be able to drop straight back into this pose, touching the hands to the feet simultaneously while keeping the thighs perpendicular to the floor. If you need to, tilt the thighs back a little from the perpendicular and minimally twist to one side to get one hand on the same-side foot. Then press your thighs back to perpendicular, turn your torso back to neutral, and touch the second hand to its foot.
 
 
 
 
 \n\nStep 4\n\n
 
-See that your lower front ribs aren\'t protruding sharply toward the ceiling, which hardens the belly and compresses the lower back. Release the front ribs and lift the front of the pelvis up, toward the ribs. Then lift the lower back ribs away from the pelvis to keep the lower spine as long as possible. Press your palms firmly against your soles (or heels), with the bases of the palms on the heels and the fingers pointing toward the toes. Turn your arms outwardly so the elbow creases face forward, without squeezing the shoulder blades together. You can keep your neck in a relatively neutral position, neither flexed nor extended, or drop your head back. But be careful not to strain your neck and harden your throat.
+See that your lower front ribs aren\'t protruding sharply toward the ceiling, which hardens the belly and compresses the lower back. Release the front ribs and lift the front of the pelvis up, toward the ribs. Then lift the lower back ribs away from the pelvis to keep the lower spine as long as possible. Press your palms firmly against your soles (or heels), with the bases of the palms on the heels and the fingers pointing toward the toes. Turn your arms outwardly so the elbow creases face forward, without squeezing the shoulder blades together.
 
 
 
@@ -1650,8 +1626,6 @@ Improves posture\n
 Stimulates the organs of the abdomen and neck</string>
 
 
-
-
     <string name="b">Beginner Yoga</string>
     <string name="b1">Morning Yoga</string>
     <string name="b2">Dynamic Yoga</string>
@@ -1663,8 +1637,6 @@ Stimulates the organs of the abdomen and neck</string>
     <string name="b8">Twist Stretch</string>
     <string name="b9">Back Care</string>
     <string name="b10">Healthy Heart</string>
-
-
 
 
     <string name="n">If you are brand new to yoga, there are certain postures that are essential for you to learn.</string>
@@ -1679,7 +1651,6 @@ Stimulates the organs of the abdomen and neck</string>
     <string name="n8">7 minutes Workout helps us to extend all body parts and release the stress.</string>
     <string name="n9">Dealing with back pain? These simple yoga poses may help.</string>
     <string name="n10">Here are some of the most basic and easy yoga postures can ensure maintaining a healthy heart.</string>
-
 
 
     <string name="pl">How To Perform:\n\nStep 1\n\n
@@ -1732,7 +1703,7 @@ Rest your right hand on your shin, ankle, or the floor outside your right foot, 
 Stay in this pose for 30 seconds to 1 minute. Inhale to come up, strongly pressing the back heel into the floor and reaching the top arm toward the ceiling. Reverse the feet and repeat for the same length of time to the left.
     </string>
 
-<string name="w3">
+    <string name="w3">
 How To Perform:\n\nStep 1\n\n
 
 Stand in Tadasana (Mountain Pose). With an exhale, step or lightly jump your feet 31/2 to 4 feet apart. Raise your arms perpendicular to the floor (and parallel to each other), and reach actively through the little-finger sides of the hands toward the ceiling. Firm your scapulas against your back and draw them down toward the coccyx.
@@ -1761,7 +1732,7 @@ Keep your head in a neutral position, gazing forward, or tilt it back and look u
 Stay for 30 seconds to a minute. To come up, inhale, press the back heel firmly into the floor and reach up through the arms, straightening the right knee. Turn the feet forward and release the arms with an exhalation, or keep them extended upward for more challenge. Take a few breaths, then turn the feet to the left and repeat for the same length. When you\'re finished return to Tadasana.
 </string>
 
-<string name="w2">
+    <string name="w2">
 How To Perform:\n\nStep 1\n\n
 
 Stand in Tadasana (Mountain Pose). With an exhalation, step or lightly jump your feet 3 1/2 to 4 feet apart. Raise your arms parallel to the floor and reach them actively out to the sides, shoulder blades wide, palms down.
@@ -1789,10 +1760,6 @@ Stay for 30 seconds to 1 minute. Inhale to come up. Reverse the feet and repeat 
 </string>
 
 
-
-
-
-
     <string name="uh">How To Perform:\n\nStep 1\n\n
 
 Stand in Tadasana. Turn your arms outward (or laterally) so your palms face away from your torso and thumbs point backward. With an inhale, sweep your arms out to the sides and up toward the ceiling.
@@ -1817,7 +1784,6 @@ Don\'t let your lower front ribs protrude forward. Bring your front ribs down (t
 \n\nStep 5\n\n
 
 Exhale and, as you sweep your arms out to the sides, tip your torso forward from the hip joints to fold into Uttanasana (Standing Forward Bend).</string>
-
 
 
 </resources>
